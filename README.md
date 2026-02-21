@@ -12,7 +12,14 @@ This repository contains a **parallel MPI implementation** to find the **k-th sm
 
 - GCC compiler  
 - OpenMPI  
-- (Optional) SLURM and access to an HPC cluster for full parallel execution
+- SLURM and access to an HPC cluster for full parallel execution
+
+## Results
+
+All experiment results, including execution times, number of MPI processes, and k-th smallest elements found, are available in a separate repository: [Results Repository](https://github.com/anasgourd/results).  
+
+- Organized by dataset size and experiment configuration.  
+- Useful to evaluate parallel performance, scalability and correctness of the algorithm.
 
 ## Usage
 
