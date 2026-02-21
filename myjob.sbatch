@@ -14,4 +14,4 @@ module load gcc openmpi  # Load necessary modules
 
 mpicc -o main ks.cpp -lm -lstdc++  # Compile the MPI program
 
-srun -n 4 ./main 1024000 4 
+srun -n 32 ./main 1024000 4 
